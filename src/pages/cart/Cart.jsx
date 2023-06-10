@@ -15,7 +15,7 @@ const Cart = (prop) => {
       <div className="cartItems">
         {PRODUCTS.map((product) => {
           if (cartItems[product.id] !== 0) {
-            return <CartItems data={product} key={prop.id} />;
+            return <CartItems data={product} key={product.id} />;
           }
         })}
       </div>

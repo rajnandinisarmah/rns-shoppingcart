@@ -15,7 +15,6 @@ const CartItem = (props) => {
         <div className="countHandler">
           <button onClick={() => removeFromCart(id)}> - </button>
           <input value={cartItems[id]} />
-
           <button onClick={() => addToCart(id)}> + </button>
         </div>
       </div>

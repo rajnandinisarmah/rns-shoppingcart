@@ -8,6 +8,7 @@
 }
 
 .links {
+    color: white;
     margin-right: 50px;
     display: flex;
     align-items: center;
