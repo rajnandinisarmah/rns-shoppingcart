@@ -16,6 +16,7 @@ const Product = (props) => {
         </p>
         <p>${price}</p>
       </div>
+      Babli
       <button className="addToCartButton" onClick={() => addToCart(id)}>
         Add to cart {cartItemAmount > 0 && <> ({cartItemAmount})</>}
       </button>
